@@ -1,0 +1,16 @@
+body {
+  background-color: aqua;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr 2fr);
+  height: 300px;
+  background-color: blue;
+}
+
+.item {
+  color: white;
+  border: 1px solid lightcoral;
+}
