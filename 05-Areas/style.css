@@ -1,0 +1,39 @@
+body {
+font-family: sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1fr, 2fr, 1fr);
+  height: 100vh;
+  grid-template-areas: 
+    "header header header"
+    "main main sidebar"
+    "footer footer footer" ;
+  
+  background-color: darkblue;
+}
+
+.item {
+  background-color: coral;
+}
+
+.header {
+  grid-area: header;
+  background-color: blue;
+}
+
+.main {
+  grid-area: main;
+  background-color: cyan;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: gray;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: green;
+}
