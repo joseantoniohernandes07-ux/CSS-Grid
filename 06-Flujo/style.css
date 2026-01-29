@@ -13,6 +13,8 @@ body {
   
   grid-auto-flow: row;/* Default */
   grid-auto-flow: column;
+
+  gap: 24px; /* agrega guecos */
   
   direction: ltr; /* de izq a der */
   direction: rtl; /* de der a izq */
